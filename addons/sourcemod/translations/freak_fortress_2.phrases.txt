@@ -4,6 +4,15 @@
 	{
 		"en"	"Freak Fortress 2 is currently disabled. More players are required."
 	}
+	"ff2_group"
+	{
+		"en"	"VS Saxton Hale/Freak Fortress 2 group: {olive}http://steamcommunity.com/groups/vssaxtonhale{default}"
+	}
+	"ff2_info"
+	{
+		"#format" "{1:s}"
+		"en"	"{default} === Freak Fortress 2 v{1} (based on VS Saxton Hale Mode by {olive}RainBolt Dash{default}, {olive}FlaminSarge{default}, and {blue}Chdata{default}) === "
+	}
 	"type_ff2_to_open_menu"
 	{
 		"en"	"Type {olive}/ff2{default} in chat to open the menu"
@@ -16,7 +25,7 @@
 	"wait_hp"
 	{
 		"#format" "{1:i},{2:s}"
-		"en"  "You cannot check the boss' hp right now. Wait {1} more second(s). Last known hp value was {2}"
+		"en"  "You cannot check the boss' HP right now. Wait {1} more second(s). Last known HP value was {2}"
 	}
 	"damage"
 	{
@@ -94,7 +103,7 @@
 	{
 		"en"	"Natascha and the KGB are replaced with the\nMinigun and Fists, respectively.\nThe Gloves of Running are quite quick but cause you to lose more health.\nThe Holiday Punch gives you instant weapon switch."
 	}
-	"help_eggineer"
+	"help_engineer"
 	{
 		"en"	"All maps have only small ammo packs.\nThe Frontier Justice gains crits only while your sentry is targetting Boss."
 	}
@@ -106,7 +115,7 @@
 	{
 		"en"	"All your weapons have critical hits.\nJarate removes 8%% rage.\nDarwin's Danger Shield gives you +50HP.  Razorback blocks a hit from the boss.\nCozy Camper gives you a modified SMG.\nDefault Sniper Rifle causes Boss to glow. Glow time scales with charge."
 	}
-	"help_spie"
+	"help_spy"
 	{
 		"en"	"Backstab does about 10 percent of Boss's max health.\nCloak and Dagger replaced with normal watch.\nAll revolvers minicrit.\nYour Eternal Reward/Wanga Prick backstabs disguise you instantly.\nKunai backstabs will give you a health bonus.\nBig Earner gives you full cloak on backstab."
 	}
@@ -192,7 +201,7 @@
 	"ff2_start"
 	{
 		"#format" "{1:N},{2:s},{3:i},{4:s}"
-		"en"	"{1} became\n {2}\n with {3}{4} hp"
+		"en"	"{1} became\n {2}\n with {3}{4} HP"
 	}
 	"ff2_hp"
 	{
@@ -202,7 +211,7 @@
 	"ff2_alive"
 	{
 		"#format" "{1:s},{2:N},{3:i},{4:i},{5:s}"
-		"en"	"{1} ({2}) won with {3} out of {4}{5} hp left."
+		"en"	"{1} ({2}) won with {3} out of {4}{5} HP left."
 	}
 	"select_charset"
 	{
@@ -268,6 +277,14 @@
 		"#format" "{1:s}"
 		"en"	"FF2 monologues: {1}."
 	}
+	"ff2_companion_on"
+	{
+		"en"	"You can be selected as companion"
+	}
+	"ff2_companion_off"
+	{
+		"en"	"You won't be selected as companion"
+	}
 	"ff2_voice2"
 	{
 		"en"	"Other sounds will be playing, but very quietly."
@@ -283,6 +300,10 @@
 	"menu_9a"
 	{
 		"en"	"Toggle info about changes of classes in FF2"
+	}
+	"menu_10"
+	{
+		"en"	"Toggle companions (/ff2companion)"
 	}
 	"ff2_classinfo"
 	{
@@ -355,6 +376,34 @@
 	{
 		"en"	"You just got market-gardened!"
 	}
+	"Telefrag Assist"
+	{
+		"en"	"TELEFRAG ASSIST! Nice job setting it up!"
+	}
+	"Telefragger"
+	{
+		"en"	"TELEFRAG! You're a pro!"
+	}
+	"Telefragged"
+	{
+		"en"	"TELEFRAG! Be careful around quantum tunneling devices!"
+	}
+	"Boss Goomba Stomped"
+	{
+		"en"	"Ouch! Watch your head!"
+	}
+	"Boss Goomba Stomper"
+	{
+		"en"	"You just goomba stomped somebody!"
+	}
+	"Player Goomba Stomped"
+	{
+		"en"	"You were just goomba stomped!"
+	}
+	"Player Goomba Stomper"
+	{
+		"en"	"You just goomba stomped the boss!"
+	}
 	"Detonations Left"
 	{
 		"#format"	"{1:i}"
@@ -369,5 +418,75 @@
 	{
 		"#format"	"{1:i}"
 		"en"		"Damage: {1}"
+	}
+	"Dead Ringer Ready"
+	{
+		"en"        "Status: Feign Death Ready"
+	}
+	"Dead Ringer Inactive"
+	{
+		"en"        "Status: Inactive"
+	}
+	"Dead Ringer Active"
+	{
+		"en"        "Status: Deadringed"
+	}
+	"Overtime"	// HUD, Annotation
+	{
+		"en"		"OVERTIME!"
+	}
+	"Round Timer Disabled"
+	{
+		"en"        "Boss health too low.\n TIMER DISABLED!"
+	}
+	"FF2 Voices Menu"
+	{
+		"en"        "Turn the Freak Fortress 2 voices..."
+	}
+	"FF2 Music Menu"
+	{
+		"en"        "Turn the Freak Fortress 2 music..."
+	}
+	"FF2 Class Info Menu"
+	{
+		"en"        "Turn the Freak Fortress 2 class info..."
+	}
+	"FF2 Changelog Current Version"
+	{
+		"#format"	"{1:s}"
+		"en"        "FF2 Changelog - Current version: {1}\n"
+	}
+	"FF2 Companion Menu"
+	{
+		"en"        "Toggle being a Freak Fortress 2 companion..."
+	}
+	"FF2 Version"
+	{
+		"#format"	"{1:s}"
+		"en"        "FF2 {1}"
+	}
+	"FF2 Version Current"
+	{
+		"#format"	"{1:s}"
+		"en"        "FF2 {1} <- Current version"
+	}
+	"Your FF2 Healing"
+	{
+		"#format"	"{1:i}"
+		"en"	"Your Healing: {1}"
+	}
+	"FF2 SpecHealing"
+	{
+		"#format"	"{1:N},{2:i}"
+		"en"	"{1}'s Healing: {2}"
+	}
+	"Sapper Cooldown"	
+	{
+		"#format"	"{1:i}"
+		"en"		"Sapper Power: {1}%%"
+	}
+	"Sapper Ready"	
+	{
+		"en"		"Sapper is ready!"
 	}
 }

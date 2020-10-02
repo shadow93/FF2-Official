@@ -13,19 +13,6 @@ It is highly recommended that you also make these changes when compiling FF2.
 MarkNativeAsOptional("SMAC_CheatDetected");
 ```
 
-`rtd.inc`:  Inside `public SharedPlugin:__pl_rtd = `
-* Remove:
-```sourcepawn
-required = 1
-```
-* Add:
-```sourcepawn
-#if defined REQUIRE_PLUGIN
-required = 1
-#else
-required = 0
-#endif
-```
 
 ### Formatting
 ***
@@ -41,6 +28,7 @@ If you wish to make a pull request, the following formatting rules should be adh
 * Bracket all conditional statements, even if it is not required (one-line if statements, for example)
 * Variable names should be camel-cased (markdownIsStupid)
 * Method names should be capitalized normally (MarkNativeAsOptional)
+* New syntax should be used 
 
 Example:
 
@@ -51,7 +39,7 @@ if(markdownIsStupid)
 	{
 		while(!someOtherBoolean)
 		{
-			for(new i=0; i<=someOtherNumber; i+=3)
+			for(int i=0; i<=someOtherNumber; i+=3)
 			{
 				if(i==someNumber && moreVariableNames!=42)
 				{
